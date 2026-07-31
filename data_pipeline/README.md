@@ -25,3 +25,5 @@ python queries.py
 ## Schema
 categories(category_id PK, category_name UNIQUE)
 books(book_id PK, title, price_gbp, price_inr, rating, in_stock, category_id FK -> categories)
+
+This project scrapes book data from books.toscrape.com.
